@@ -1,10 +1,15 @@
+% to do before running: change this based on what folder you want to look
+% through
 % folder with labeled files
 folder = "Y:\usvi\stj\fishAuditing\HM_ST_comparison\ST_master_labels_TK"
 
+% to do before running: change this based on where and what you want your
+% output file to be named
 % write the whole table to the master datafile
 % note that the name of this file cannot have "labels" in its name
 doc = "Y:\usvi\stj\fishAuditing\HM_ST_comparison\ST_master_labels_TK\consolidated_data_ST_TK.txt";
 
+% to do before running: either 'ST' or 'HM'
 type_of_recorder = 'ST'
 
 files = dir(fullfile(folder, '*.txt'));
